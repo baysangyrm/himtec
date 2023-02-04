@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
+    <title>HimTec: Главная.</title>
+</head>
+<script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 500);
+    }
+  </script>
+<body>
+
+    <!-- PRELOAD -->
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <!-- PRELOAD -->
+
+    <header class="header" data-aos="fade-down" data-aos-duration="800">
+    <div class="container">
+      <div class="header-wrapper">
+                <div class="header-logo">
+                    <h2 class="header-title">HIMTEC</h2>
+                </div>
+                <!-- /.header-logo -->
+                <nav class="nav-header" data-aos="fade-down" data-aos-duration="2000">
+                  <a href="index.html" class="header-nav__link">Главная</a>
+                  <a href="pages/contacts.html" class="header-nav__link">О компании</a>
+                </nav>
+                <!-- /.nav-header -->
+
+        </div>
+            <!-- /.header-wrapper -->
+    </div>
+        <!-- /.container -->
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="main-hello">
+                    <p class="main-hello_title" data-aos="fade-up" data-aos-duration="800">
+                        Товары в наличии:
+                    </p>
+                </div>
+                <!-- /.main-hello -->
+                <div class="main-parts">
+                    <div class="main-parts_part" data-aos="fade-up" data-aos-duration="800">
+                        <img src="img/main-parts/autoshampoo.png" alt="" class="main-parts_part-image">
+                        <p class="main-parts_part-title">Автошампунь - Grand Luxe</p>
+                        <p class="main-parts_part-description">1 литр - 70 рублей</p>
+                        <button class="main-parts_part-button"><a href="pages/contacts.html" class="main-parts_part-button">Заказать</a></button>
+                    </div>
+                    <div class="main-parts_part" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="img/main-parts/antifreeze.png" alt="" class="main-parts_part-image">
+                        <p class="main-parts_part-title">Антифриз - Grand Luxe</p>
+                        <p class="main-parts_part-description">1 литр - 70 рублей</p>
+                        <button class="main-parts_part-button"><a href="pages/contacts.html" class="main-parts_part-button">Заказать</a></button>
+                    </div>
+                    <div class="main-parts_part" data-aos="fade-up" data-aos-duration="1200">
+                        <img src="img/main-parts/antifreeze.png" alt="" class="main-parts_part-image">
+                        <p class="main-parts_part-title">Антифриз - Grand Luxe</p>
+                        <p class="main-parts_part-description">5 литров - 350 рублей</p>
+                        <button class="main-parts_part-button"><a href="pages/contacts.html" class="main-parts_part-button">Заказать</a></button>
+                    </div>
+                    <div class="main-parts_part" data-aos="fade-up" data-aos-duration="1400">
+                        <img src="img/main-parts/autoshampoo.png" alt="" class="main-parts_part-image">
+                        <p class="main-parts_part-title">Автошампунь - Grand Luxe</p>
+                        <p class="main-parts_part-description">21 кг - 1200 рублей</p>
+                        <button class="main-parts_part-button"><a href="pages/contacts.html" class="main-parts_part-button">Заказать</a></button>
+                    </div>
+                    <div class="main-parts_part" data-aos="fade-up" data-aos-duration="1600">
+                        <img src="img/main-parts/antifreeze.png" alt="" class="main-parts_part-image">
+                        <p class="main-parts_part-title">Грунтовка</p>
+                        <p class="main-parts_part-description">5 литров - 180 рублей</p>
+                        <button class="main-parts_part-button"><a href="pages/contacts.html" class="main-parts_part-button">Заказать</a></button>
+                    </div>
+                </div>
+                <!-- /.main-parts -->
+            </div>
+            <!-- /.main-wrapper -->
+        </div>
+        <!-- /.container -->
+    </main>
+    <footer class="footer">
+        <p class="footer-copywrite">
+            OOO "ГРАНД - ХИМТОРГ", все права защищены. </p>
+        </p>
+    </footer>
+</body>
+
+<script>
+    AOS.init();
+  </script>
+
+</html>

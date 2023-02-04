@@ -1,0 +1,114 @@
+.main-title{
+    font-size: 2vw;
+}
+.main-email{
+    margin-top: 30px;
+}
+.main-email_link{
+    text-decoration: none;
+    font-size: 2vw;
+    color: grey;
+}
+.main-contacts{
+    margin-top: 30px;
+    font-size: 2vw;
+}
+.main-contacts_link{
+    color: grey;
+}
+.main-adress{
+    margin-top: 30px;
+}
+.main-adress_adress{
+    color: rgb(192, 190, 190);
+    font-size: 2vw;
+    line-height: 5vh;
+}
+.main-ogrn{
+    margin-top: 30px;
+}
+.main-ogrn_ogrn{
+    color: rgb(192, 190, 190);
+    font-size: 2vw;
+    line-height: 5vh;
+}
+
+@media  (min-width: 200px) and (max-width: 430px) {
+    .header-wrapper{
+        display: block;
+    }
+    .header-title{
+        text-align: center;
+    }
+    .nav-header{
+        padding-top: 2px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .main-parts_part-image{
+        width: 80vw;
+    }
+    .main-hello_title{
+        margin-bottom: 5vh;
+        font-size: 5vw;
+        font-weight: 900;
+    }
+    .main-parts_part-title{
+        font-size: 4vw;
+        font-weight: 900;
+        padding-top: 1vh;
+    }
+    .main-parts_part-description{
+        padding-top: 1vh;
+        font-weight: 400;
+        padding-bottom: 2vh;
+        font-size: 3vw;
+    }
+    html{
+        background-image: url("../img/background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 120%;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+    .footer-copywrite{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .main-title{
+        font-size: 5vw;
+    }
+    .main-email{
+        margin-top: 30px;
+    }
+    .main-email_link{
+        text-decoration: none;
+        font-size: 5vw;
+    }
+    .main-contacts{
+        margin-top: 30px;
+    }
+    .main-contacts_link{
+        text-decoration: none;
+        font-size: 5vw;
+    }
+    .main-adress{
+        margin-top: 30px;
+    }
+    .main-adress_adress{
+        color: rgb(192, 190, 190);
+        font-size: 4vw;
+        line-height: 2.5vh;
+    }
+    .main-ogrn{
+        margin-top: 30px;
+    }
+    .main-ogrn_ogrn{
+        color: rgb(192, 190, 190);
+        font-size: 4vw;
+        line-height: 2.5vh;
+    }
+}

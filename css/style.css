@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: #0c0a18;
+    --accent-color: none;
+    --text-color: #FFFFFF; font-size: 1.5vh;
+}
+html{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130%;
+    width: 100vw;
+    overflow-y: scroll;
+}
+h1,h2,h3,h4,h5,h6, p{
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: "Basic-font_ttf";
+    src: url(../fonts/Poppins-Black.ttf);
+}
+.container{
+    width: calc(100% - 20%);
+    margin: 0 auto;
+}
+.header{
+    background-color: var(--main-color);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-title{
+    font-weight: 500;
+    font-family: "Basic-font_ttf";
+}
+.header-description{
+    font-weight: 100;
+}
+.header-nav__link{
+    color: #FFFFFF;
+    font-family: "Basic-font_ttf";
+    font-weight: 800;
+    padding-right: 2vw;
+}
+.nav-header :hover {
+    color: grey;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15vh;
+}
+.main-hello_title{
+    margin-bottom: 5vh;
+    font-size: 2vw;
+    font-weight: 900;
+}
+.main-hello_description{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1vw;
+}
+.main-parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-parts_part{
+    background-color: #0c0a18;
+    margin: 1vh 1vw;
+    padding-top: 10px;
+    border-radius: 15px;
+    position: sticky;
+}
+.main-parts_part-title{
+    font-size: 1vw;
+    font-weight: 900;
+    padding-top: 1vh;
+}
+.main-parts_part-description{
+    padding-top: 1vh;
+    font-size: 1vw;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+.main-parts_part-button{
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 30px;
+    background-color: rgb(87, 38, 38);
+    padding: 2vh 2vh;
+    cursor: pointer;
+    margin-bottom: 3vh;
+}
+.main-parts_part-image{
+    width: 20vw;
+}
+.footer-copywrite{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1vw;
+}
